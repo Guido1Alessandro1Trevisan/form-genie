@@ -1,0 +1,12 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.1.48",
+    "fastapi>=0.115.12",
+    "playwright>=1.52.0",
+    "uvicorn>=0.34.2",
+]
